@@ -90,7 +90,9 @@ nav ul li {
 }
 .features div {
  min-width: 40vw;
+ max-width: 50vw;
   min-height: 28vh;
+  max-height: 30vh;
   padding:0 2rem;
   border-radius:2px;
  box-shadow:10px 10px 10px  10px #e9e9e9;
@@ -127,11 +129,11 @@ color: white;
 border-color:#E98443;
  
 }
-/*.features div:nth-of-type(1) button ,
+.features div:nth-of-type(1) button ,
 .features div:nth-of-type(3) button{
  position:relative;
  left: 6rem;
-}*/
+}
 .key_features {
   min-height:60vh;
  flex-wrap: wrap;
