@@ -127,11 +127,11 @@ color: white;
 border-color:#E98443;
  
 }
-.features div:nth-of-type(1) button ,
+/*.features div:nth-of-type(1) button ,
 .features div:nth-of-type(3) button{
- position: relative;
+ position:relative;
  left: 6rem;
-}
+}*/
 .key_features {
   min-height:60vh;
  flex-wrap: wrap;
