@@ -2,190 +2,322 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>rava landing page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="freecodecamp| landing page |product|project " />
-    <link rel="stylesheet" href="./styles.css">
+    <meta
+      name="description"
+      content="Rava — a simple creative application for beautiful, secure and high-performing digital experiences."
+    />
+    <title>Rava — Simple app that we create</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
-<svg height="0" width="0">
-	<defs>
-		<clipPath id="svgPath">
- <path id="heart" fill="url(#my-cool-gradient)" d="M48.8,-59.9C60.5,-48.3,65.4,-30.4,65.5,-13.9C65.7,2.6,61.1,17.7,54.7,34.1C48.2,50.6,39.8,68.5,26.9,72.7C13.9,76.9,-3.6,67.5,-21.9,60.6C-40.3,53.8,-59.4,49.6,-61.8,38.9C-64.1,28.2,-49.7,11,-46.7,-8.6C-43.8,-28.2,-52.2,-50.3,-46.3,-62.8C-40.4,-75.4,-20.2,-78.5,-0.8,-77.6C18.5,-76.6,37.1,-71.4,48.8,-59.9Z" transform="translate(100,100)" />
-		</clipPath>
-	</defs>
-</svg>
-  <body >
-    <nav >
-      <h1 >Rava</h1>
-      <ul >
-       <li >Home</li>
-       <li >About</li>
-       <li >Testimonials</li>
-      <li >Contact us</li>
-        
-      </ul>
-    </nav>
-    <main >
-   
-      <section class="section" >
-  
-        <div >
-          <h1 >Simple app that we <span >create</span></h1>
-          <p >The Rava app is provided by lordwhitefire.you can use it  personally or for commercial uses , ofcourse you need <br />to contact us for additional licensing</p>
-          <button >know us better</button>
-        </div>
-        <div >
-<img src="img/blog.svg" />
-<img src="img/phone1.svg" />
- </div>
-      </section>
-      <section class="features">
-        <div >
-          <h1 >01</h1>
-<img src="img/design.svg" />
-          <h4 >Design & branding</h4>
-          <p >
-            by combining cognitive theory and experience design you can create memorable experiences ,a unified system of design elements like logos, colours, typography.
-          </p>
-          <button >Read more</button>
-        </div>
-        <div >
-          <h1 >02</h1>
- <img src="img/secured.svg" />
-          <h4 >Fully secured</h4>
-          <p >A fully secure attributes based encryption(ABE) scheme and fully secure (attributes hiding) predicate(PE) encryption scheme for inner product 
-           <button >Discover more</button>
-        </div>
-        <div >
-          <h1 >03</h1>
-<img src="img/performance.svg" />
-          <h4 >High performance</h4>
-          <p >
-            A concept within organizational development   referring to teams  that are highly focused on theri goals and that focused on their goals and that achieve superior business reaults 
-          </p>
-          <button >more detail</button>
-        </div>
-      </section>
-  <section class="key_features">
- 
-     <div class="div1" >
-<img src="img/Blob2.svg" />
-         <div class="panel">
-        <img src="img/phone.svg" />
-          </div >
-        </div>
-    
-    <div class="div2">
-<div >
-   <img src="img/icon.svg" />
-   <p >
-            <span >Beautiful and simple and easy to use </span> <br />
-            Due to its widespread use as filler text for layouts,non-readability is of great importance , human perception is tuned 5o recognise certain patterns and repetitions in texts .If the distribution of letters visual impact
-          </p>
-          </div>
- <div >
-   <img src="img/icon.svg" />
-   <p >
-            <span >We build high performing application </span> <br />
-            Due to its widespread use as filler text for layouts,non-readability is of great importance , human perception is tuned 5o recognise certain patterns and repetitions in texts .If the distribution of letters visual impact
-          </p>
-          </div>
- <div >
-   <img src="img/icon.svg" />
-   <p >
-            <span >Easy and best solution for your app </span><br />
-            Due to its widespread use as filler text for layouts,non-readability is of great importance , human perception is tuned 5o recognise certain patterns and repetitions in texts .If the distribution of letters visual impact
-          </p>
-          </div>
-</div>
 
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#home">Rava</a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links" id="primary-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-decoration hero-decoration--one" aria-hidden="true"></div>
+        <div class="hero-decoration hero-decoration--two" aria-hidden="true"></div>
+
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Creative digital experiences</p>
+            <h1>Simple app that we <span>create</span></h1>
+            <p class="hero-copy">
+              The Rava app is provided by lordwhitefire. You can use it personally
+              or for commercial use; of course, you need to contact us for
+              additional licensing.
+            </p>
+            <a class="button button--primary" href="#features">Know us better</a>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-blob"></div>
+            <img class="hero-blog" src="img/blog.svg" alt="" />
+            <img class="hero-phone" src="img/phone1.svg" alt="" />
+          </div>
+        </div>
       </section>
-     <section class="testimonials">
-        <h5 >what our users say </h5>
-        <p >search all the open  positions on the web.Get your own personlaized salary estimate,read reviews on over 30000 + companies worldwide</p>
+
+      <section class="features section-padding" id="features">
         <div class="container">
-          <p ></p>
-        <div >
-        <div >
-        <div >
-       <img class="quote"src="img/quote.svg" />
-       <blockquote >
-         Rava is highly recommended!<br />
-         They are very responsive and never made me wait for hearing my concerns.Their team is very understanding, listens and respond with politeness. 
-       </blockquote>
-   <div class="star">
-          <img src="img/star.svg" />
-          <img src="img/star.svg" />
-          <img src="img/star.svg" />
-          <img src="img/star.svg" />
-          <img src="img/star.svg" />
+          <div class="section-heading">
+            <p class="eyebrow">What we do</p>
+            <h2>Built with purpose</h2>
+            <p>
+              Thoughtful design, dependable security and high performance come
+              together to create better digital products.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <span class="feature-number">01</span>
+              <img src="img/design.svg" alt="" />
+              <h3>Design &amp; branding</h3>
+              <p>
+                By combining cognitive theory and experience design, you can
+                create memorable experiences with a unified system of logos,
+                colours and typography.
+              </p>
+              <a href="#contact" class="text-button">Read more</a>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-number">02</span>
+              <img src="img/secured.svg" alt="" />
+              <h3>Fully secured</h3>
+              <p>
+                A fully secure attributes-based encryption scheme and
+                attributes-hiding predicate encryption approach for inner
+                product applications.
+              </p>
+              <a href="#contact" class="text-button">Discover more</a>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-number">03</span>
+              <img src="img/performance.svg" alt="" />
+              <h3>High performance</h3>
+              <p>
+                A concept within organizational development referring to teams
+                that are highly focused on their goals and achieve superior
+                business results.
+              </p>
+              <a href="#contact" class="text-button">More detail</a>
+            </article>
           </div>
         </div>
-      </div>
-      <figure> 
-      <img src="img/manager2.svg"/>
-      <figcaption >
-        <h4 >igboke somto <br />
-        manager</h4>
-      </figcaption>
-      </figure >
-      </div>
-      <div >
-        <div >
-  <img class="quote" src="img/quote.svg" />
-          <blockquote >
-   Rava is highly recommended!<br />
-         They are very responsive and never made me wait for hearing my concerns.Their team is very understanding, listens and respond with politeness. 
-          </blockquote>
-          <div class="star">
-          <img src="img/star.svg" />
-          <img src="img/star.svg" />
-          <img src="img/star.svg" />
-          <img src="img/star.svg" />
-          <img src="img/star.svg" />
-          </div>
-        </div>
-        <figure >
-          <img src="img/manager3.svg"/>
-          <figcaption >
-            <h4 >Ifedike victor<br />
-   manager</h4>
-         
-          </figcaption>
-        </figure>
-      </div>
-      </div>
       </section>
-   
-    
-    <section class="rava" >
-      <div class="about">
-          <form >
-            
-            <input name="full-name" placeholder="full-name" type="name" />
-            <input name="email" placeholder="e-mail_address" type="email" />
-            <textarea name="message" placeholder="Your_message" ></textarea>
-            <button >Send Message Now</button>
+
+      <section class="key-features section-padding">
+        <div class="container key-features-grid">
+          <div class="device-stage" aria-hidden="true">
+            <div class="device-blob"></div>
+            <div class="device-panel">
+              <img src="img/phone.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="key-features-content">
+            <article class="key-feature">
+              <img src="img/icon.svg" alt="" />
+              <div>
+                <h3>Beautiful, simple and easy to use</h3>
+                <p>
+                  Due to its widespread use as filler text for layouts,
+                  non-readability is of great importance. Human perception is
+                  tuned to recognise certain patterns and repetitions in text.
+                </p>
+              </div>
+            </article>
+
+            <article class="key-feature">
+              <img src="img/icon.svg" alt="" />
+              <div>
+                <h3>We build high-performing applications</h3>
+                <p>
+                  We focus on clear structure, thoughtful interaction and
+                  performance so your application feels dependable and smooth.
+                </p>
+              </div>
+            </article>
+
+            <article class="key-feature">
+              <img src="img/icon.svg" alt="" />
+              <div>
+                <h3>Easy and best solution for your app</h3>
+                <p>
+                  A practical combination of design and technology gives your
+                  product a clear path from idea to a useful digital experience.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials section-padding" id="testimonials">
+        <div class="container">
+          <div class="section-heading section-heading--center">
+            <p class="eyebrow">What our users say</p>
+            <h2>People love working with Rava</h2>
+            <p>
+              Search all the open positions on the web, get your own
+              personalised salary estimate and read reviews from companies
+              worldwide.
+            </p>
+          </div>
+
+          <div class="testimonial-grid">
+            <article class="testimonial-card">
+              <img class="quote" src="img/quote.svg" alt="" />
+              <blockquote>
+                <strong>Rava is highly recommended!</strong>
+                They are very responsive and never made me wait to hear their
+                concerns. Their team is very understanding, listens and
+                responds with politeness.
+              </blockquote>
+
+              <div class="stars" aria-label="5 out of 5 stars">
+                <img src="img/star.svg" alt="" />
+                <img src="img/star.svg" alt="" />
+                <img src="img/star.svg" alt="" />
+                <img src="img/star.svg" alt="" />
+                <img src="img/star.svg" alt="" />
+              </div>
+
+              <figure class="person">
+                <img src="img/manager2.svg" alt="Igboke Somto" />
+                <figcaption>
+                  <h3>Igboke Somto</h3>
+                  <p>Manager</p>
+                </figcaption>
+              </figure>
+            </article>
+
+            <article class="testimonial-card">
+              <img class="quote" src="img/quote.svg" alt="" />
+              <blockquote>
+                <strong>Rava is highly recommended!</strong>
+                They are very responsive and never made me wait to hear their
+                concerns. Their team is very understanding, listens and
+                responds with politeness.
+              </blockquote>
+
+              <div class="stars" aria-label="5 out of 5 stars">
+                <img src="img/star.svg" alt="" />
+                <img src="img/star.svg" alt="" />
+                <img src="img/star.svg" alt="" />
+                <img src="img/star.svg" alt="" />
+                <img src="img/star.svg" alt="" />
+              </div>
+
+              <figure class="person">
+                <img src="img/manager3.svg" alt="Ifedike Victor" />
+                <figcaption>
+                  <h3>Ifedike Victor</h3>
+                  <p>Manager</p>
+                </figcaption>
+              </figure>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container contact-grid">
+          <form class="contact-form">
+            <div class="form-row">
+              <label>
+                <span class="sr-only">Full name</span>
+                <input
+                  name="full-name"
+                  placeholder="Full name"
+                  type="text"
+                  autocomplete="name"
+                  required
+                />
+              </label>
+
+              <label>
+                <span class="sr-only">Email address</span>
+                <input
+                  name="email"
+                  placeholder="Email address"
+                  type="email"
+                  autocomplete="email"
+                  required
+                />
+              </label>
+            </div>
+
+            <label>
+              <span class="sr-only">Your message</span>
+              <textarea
+                name="message"
+                placeholder="Your message"
+                rows="5"
+                required
+              ></textarea>
+            </label>
+
+            <button class="button button--light" type="submit">
+              Send Message Now
+            </button>
           </form>
-        <div >
-          <h1 >More about rava</h1>
-          <p >Rava is a multidisplinary creative app .we work together to design , create and produce work that we are proud of for folks that we believe in</p>
-      <p >We are available for hire in a wide range of creative disciplines for a variety of jobs, projects and gigs</p>
-      <div class="about_image" >
-        <img src="img/facebook.svg" />
-        <img src="img/instagram.svg" />
-        <img src="img/linkedIn.svg" />
-        <img src="img/message.svg" />
-        <img src="img/twitter.svg" />
+
+          <div class="contact-content">
+            <p class="eyebrow eyebrow--light">Let's work together</p>
+            <h2>More about Rava</h2>
+            <p>
+              Rava is a multidisciplinary creative app. We work together to
+              design, create and produce work that we are proud of for folks
+              that we believe in.
+            </p>
+            <p>
+              We are available for hire in a wide range of creative
+              disciplines for a variety of jobs, projects and gigs.
+            </p>
+
+            <div class="social-links" aria-label="Social links">
+              <a href="#" aria-label="Facebook"><img src="img/facebook.svg" alt="" /></a>
+              <a href="#" aria-label="Instagram"><img src="img/instagram.svg" alt="" /></a>
+              <a href="#" aria-label="LinkedIn"><img src="img/linkedIn.svg" alt="" /></a>
+              <a href="#" aria-label="Message"><img src="img/message.svg" alt="" /></a>
+              <a href="#" aria-label="Twitter"><img src="img/twitter.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Copyright © 2023 Rava landing page | Designed by lordwhitefire</p>
       </div>
-        </div>
-        </div>
-    </section>
-</main>
-       <footer >
-   <hr />
-        <p >copyright ©2023 Rava landing page|Designed by lordwhitefire</p>
-        </footer>
+    </footer>
+
+    <script>
+      const toggle = document.querySelector(".nav-toggle");
+      const menu = document.querySelector(".nav-links");
+
+      toggle.addEventListener("click", () => {
+        const isOpen = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", String(!isOpen));
+        menu.classList.toggle("is-open");
+      });
+
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          toggle.setAttribute("aria-expanded", "false");
+          menu.classList.remove("is-open");
+        });
+      });
+    </script>
   </body>
-  </html>
-  
+</html>
+
